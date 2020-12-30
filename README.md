@@ -10,6 +10,10 @@ This Repo includes how I terraformed my resources for the website.
 ## codebuild.tf
 * includes the codebuild for the website for which the source is buildspec.yml
 
+## cloudfont.tf
+* includes set up for Restricting Access to Amazon S3 Content by Using an Origin Access Identity via Cloudfront user.
+
+
 ## s3.tf
 * includes the bucket which I am deploying the website to.
 * acl was set to public so it could be publically accessed.

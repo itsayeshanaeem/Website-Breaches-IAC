@@ -58,7 +58,7 @@ resource "aws_codepipeline" "Pipeline_Breaches" {
       version         = "1"
 
       configuration = {
-        BucketName = "website-breaches"
+        BucketName = "website-breaches-bucket"
         Extract = "true"
       }
     }
